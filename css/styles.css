@@ -8,7 +8,7 @@
 
 body {
 	font-family: acuta, serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
 	background-color: #D9DAD9;
 	color: #000000;
@@ -39,6 +39,19 @@ body {
 footer a:hover {
 	opacity: .5;
 }
-.navbar-toggler-icon {
-	text-align: center; 
+.our-product {
+	font-family: gitan-latin,sans-serif;
+	Font-weight: 500;
+	font-style: italic;
+	font-size: 60px;
+}
+.nav-item {
+	font-size: 18px;
+	
+}
+.product {
+	font-family: acuta, serif;
+    font-weight: 500;
+    font-style: italic;
+	font-size: 18px;
 }
