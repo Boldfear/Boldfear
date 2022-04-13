@@ -6,8 +6,11 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: gitan-latin,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+	background-color: #D9DAD9;
+	color: #000000;
 }
 
 /* Changing the background colour for the header */
@@ -19,7 +22,11 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #B175FF;
+	background-color: #D9DAD9;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39%;
 }
 
 /* Effect on social media buttons */
@@ -27,7 +34,6 @@ header {
 footer a:hover {
 	opacity: .5;
 }
-.nav-link {
-	text-align: center;
-	font-family: gitan-latin, sans-serif; 
+.navbar-toggler-icon {
+	text-align: center; 
 }
