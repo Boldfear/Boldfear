@@ -29,13 +29,6 @@ footer a:hover {
 	font-size: 18px;
 	text-align: left;
 }
-h1 {
-	font-family: acuta, serif;
-    font-weight: 500;
-    font-style: italic;
-	font-size: 18px;
-	text-align: center;
-}
 button {
 	text-align: center; 
 }
@@ -45,4 +38,19 @@ button {
 .navbar {
 	background-color: #B175FF
 }
-
+.textcolor {
+	Color: #000000
+}
+p {
+	font-family: gitan-latin,sans-serif;
+	Font-weight: 500;
+	font-style: italic;
+	font-size: 20px;
+}
+h2 {
+	font-family: acuta, serif;
+    font-weight: 500;
+    font-style: italic;
+	font-size: 50px;
+	text-decoration: underline
+}
