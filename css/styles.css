@@ -32,20 +32,24 @@ footer a:hover {
 button {
 	text-align: center; 
 }
-.navbar-brand {
-	margin-left: 340px;
-}
 .navbar {
 	background-color: #D9DAD9
 }
 .textcolor {
-	Color: #000000
-}
-p {
+	Color: #000000;
 	font-family: gitan-latin,sans-serif;
 	Font-weight: 500;
 	font-style: italic;
 	font-size: 20px;
+	float: left;
+}
+.textcolor1{
+	font-family: gitan-latin,sans-serif;
+	Font-weight: 500;
+	font-style: italic;
+	color: #000000;
+	font-size: 20px;
+	float: right
 }
 h2 {
 	font-family: acuta, serif;
@@ -55,7 +59,8 @@ h2 {
 	background-color: #D9DAD9;
 }
 h2::first-letter {
-	color: #B175FF
+	color: #B175FF;
+	text-align: center;
 }
 h1 {
 	color: #000000
@@ -84,7 +89,7 @@ h1::first-letter {
 .border{
 	width: 160px;
 	height: 5px;
-	background: #6ab04c;
+	background: #B175FF;
 	margin: 26px auto;
 }
 .row{
@@ -113,6 +118,26 @@ h1::first-letter {
 	margin: 20px 0;
 }
 .stars{
-	color: #6ab04c;
+	color: #FFDE59;
 	margin-bottom: 20px; 
+}.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: gitan-latin,sans-serif;
+  Font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+.column{
+	font-family: gitan-latin,sans-serif;
+	Font-weight: 500;
+	font-style: italic;
+	font-size: 18px;
 }
