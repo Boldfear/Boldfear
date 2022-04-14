@@ -10,28 +10,8 @@ body {
 	font-family: acuta, serif;
     font-weight: 500;
     font-style: italic;
-	background-color: #D9DAD9;
+	background-color: #FFFFFF;
 	color: #000000;
-}
-
-/* Changing the background colour for the header */
-
-.header {
-    background-color: #FFDE59;
-	font-family: gitan-latin,sans-serif;
-	Font-weight: 400;
-	font-style: italic; 
-	
-}
-
-/* Changing the background color for the navigation bar */
-
-.navbar {
-	background-color: #D9DAD9;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 39%;
 }
 
 /* Effect on social media buttons */
@@ -45,17 +25,24 @@ footer a:hover {
 	font-style: italic;
 	font-size: 60px;
 }
-.nav-item {
+.nav-link {
 	font-size: 18px;
-	
+	text-align: left;
 }
-.product {
+h1 {
 	font-family: acuta, serif;
     font-weight: 500;
     font-style: italic;
 	font-size: 18px;
+	text-align: center;
 }
-
-.footer {
+button {
+	text-align: center; 
+}
+.navbar-brand {
+	margin-left: 310px;
+}
+.navbar {
 	background-color: #B175FF
 }
+
