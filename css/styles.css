@@ -18,6 +18,7 @@ body {
 
 footer a:hover {
 	opacity: .5;
+	color: #D9DAD9;
 }
 .our-product {
 	font-family: gitan-latin,sans-serif;
