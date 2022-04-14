@@ -10,7 +10,7 @@ body {
 	font-family: acuta, serif;
     font-weight: 500;
     font-style: italic;
-	background-color: #FFFFFF;
+	background-color: #D9DAD9;
 	color: #000000;
 }
 
@@ -65,7 +65,12 @@ h2::first-letter {
 	text-align: center;
 }
 h1 {
-	color: #000000
+	color: #000000;
+	font-family: acuta, serif;
+    font-weight: 500;
+    font-style: italic;
+	font-size: 50px;
+	background-color: #D9DAD9;
 }
 h1::first-letter {
 	color: #FFDE59
@@ -143,4 +148,26 @@ h1::first-letter {
 	font-style: italic;
 	font-size: 18px;
 	background-color: #D9DAD9;
+}
+.middle{
+	Padding: 0 40px;
+	text-align: center;
+}
+.border1{
+	width: 1300px;
+	height: 100px;
+	background: #B175FF;
+	margin: 26px auto;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color: #D9DAD9;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #D9DAD9;
 }
